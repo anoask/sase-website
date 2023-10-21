@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>USF SASE</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="script.js"></script>
+
+	<!-- import Google icons for hamburger menu, home, etc. -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- import EmailJS framework -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<!-- connect EmailJS account to site -->
+	<script type="text/javascript">(function () {emailjs.init("zHSdVq5BGcCg6Bs9i");})();</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="nav" id="topnav">
+		<a href="#home">
+			<i class="material-icons">home</i>
+		</a>
+		<a href="#about">About</a>
+		<a href="#gallery">Gallery</a>
+		<a href="#contact">Contact</a>
+		<!-- <a href="#sponsors">Sponsors</a> -->
+		<a href="#socials">Socials</a>
+		<a id="hamburger-menu-icon" onclick="mobile_menu()">
+			<i class="material-icons">menu</i>
+		</a>
+		<a id="close-menu-icon" onclick="mobile_menu()">
+			<i class="material-icons">close</i>
+		</a>
+	</header>
+
+	<!-- home section -->
+	<section id="home">
+		<h1>Home</h1>
+
+		<iframe src="https://drive.google.com/file/d/1rLp3M4IgjXyzhE-dYnp7LfpHnzojo_-g/preview" allow="autoplay"></iframe>
+	</section>
+
+	<!-- about section -->
+	<section id="about">
+		<h1>About</h1>
+
+		<div id="">
+			<img src="images/saseconnect.webp" />
+	
+			<p>
+				Founded in November 2007, the Society of Asian Scientists and Engineers (SASE) is a
+				nationally recognized organization with 20,000 members worldwide. It has since been
+				a locomotive in helping scientific and engineering professionals achieve their full
+				potential. In 2016, a chapter was established at the University of South Florida (USF)
+				with only 5 determined women with the need to represent and help their community
+				in the field of science and engineering. Our chapter has grown exceptionally, gaining
+				600+ members since its inception, with achievements in providing our members with
+				professional opportunities, academic success, and enriching cultural education to
+				advance diversity on campus.
+			</p>
+	
+			<p>
+				SASE is the Society of Asian Scientists & Engineers, and our mission is to create a
+				welcoming community where members can help each other develop professionally,
+				foster leadership skills, and excel academically. Members are encouraged and
+				motivated to pursue their goals by creating their own opportunities from the
+				knowledge attained through our organization, to understand how their own culture
+				can affect and benefit the workplace, and to actively contribute to the local
+				community. SASE membership is open to men and women of all ethnic backgrounds.
+			</p>
+		</div>
+
+	</section>
+
+	<!-- gallery section -->
+	<section id="gallery">
+		<h1>Gallery</h1>
+
+		<!-- Instagram feed -->
+		<div id="ig-feed">
+			<figure data-behold-id="h9ucbwgZJHKSY6XYJiU3"></figure>
+			<script src="https://w.behold.so/widget.js" type="module"></script>
+		</div>
+
+	</section>
+
+	<!-- contact section -->
+	<section id="contact">
+		<h1>Contact</h1>
+
+		<!-- email contact form -->
+		<form id="email-contact-form">
+			<input type="text" class="contact" id="name" placeholder="name" required />
+			<input type="email" class="contact" id="email" placeholder="email" required />
+			<button id="send_email" onclick="send()">Send</button>
+			<br />
+
+			<input type="text" class="contact" id="message" placeholder="message" required />
+			<br />
+
+		</form>
+
+	</section>
+
+	<!-- sponsors section -->
+	<!-- <section id="sponsors">
+		<h1>Sponsors</h1>
+	</section> -->
+
+	<!-- socials section -->
+	<section id="socials">
+		<h1>Socials</h1>
+
+		<!-- social media logos are clickable links to our socials -->
+		<a href="https://instagram.com/usfsase/" target="_blank"><img src="images/ig logo.png" /></a>
+		<a href="https://bullsconnect.usf.edu/SASE/club_signup" target="_blank"><img
+				src="images/bullsconnect logo.jpg" /></a>
+		<a href="https://discord.com/invite/Z3mD7UcjdU" target="_blank"><img src="images/discord logo.png" /></a>
+		<a href="https://www.linkedin.com/company/usfsase/" target="_blank"><img src="images/linkedin logo.png" /></a>
+		<a href="https://www.facebook.com/SASEUSF" target="_blank"><img src="images/facebook logo.png" /></a>
+
+	</section>
+
+	<footer id="footer">
+		<a href="https://usf.edu" target="_blank"><img src="images/usf logo.png" /></a>
+		<a href="https://saseconnect.org/" target="_blank"><img src="images/sase logo.png" /></a>
+		<p style="text-align: center;">Copyright © 2023, University of South Florida Society of Asian Scientists and
+			Engineers. All rights reserved.</p>
+	</footer>
+
+</body>
+
+</html>
